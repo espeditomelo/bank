@@ -1,0 +1,341 @@
+bootArchives - Configuration for Spring Boot archive artifacts. (n)
++--- org.springframework.boot:spring-boot-starter-data-jpa -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3
+|    |    |    +--- org.springframework:spring-core:6.2.8
+|    |    |    |    \--- org.springframework:spring-jcl:6.2.8
+|    |    |    \--- org.springframework:spring-context:6.2.8
+|    |    |         +--- org.springframework:spring-aop:6.2.8
+|    |    |         |    +--- org.springframework:spring-beans:6.2.8
+|    |    |         |    |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-expression:6.2.8
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.3
+|    |    |    \--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:3.5.3
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-jdbc:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    \--- org.springframework:spring-jdbc:6.2.8
+|    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |         \--- org.springframework:spring-tx:6.2.8
+|    |              +--- org.springframework:spring-beans:6.2.8 (*)
+|    |              \--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.data:spring-data-jpa:3.5.1
+|    |    +--- org.springframework.data:spring-data-commons:3.5.1
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-orm:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-jdbc:6.2.8 (*)
+|    |    |    \--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-context:6.2.8 (*)
+|    |    +--- org.springframework:spring-aop:6.2.8 (*)
+|    |    +--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    \--- org.springframework:spring-aspects:6.2.8
++--- org.springframework.boot:spring-boot-starter-web -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    +--- org.springframework.boot:spring-boot-starter-json:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    +--- org.springframework:spring-web:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:3.5.3
+|    +--- org.springframework:spring-web:6.2.8 (*)
+|    \--- org.springframework:spring-webmvc:6.2.8
+|         +--- org.springframework:spring-aop:6.2.8 (*)
+|         +--- org.springframework:spring-beans:6.2.8 (*)
+|         +--- org.springframework:spring-context:6.2.8 (*)
+|         +--- org.springframework:spring-core:6.2.8 (*)
+|         +--- org.springframework:spring-expression:6.2.8 (*)
+|         \--- org.springframework:spring-web:6.2.8 (*)
+\--- org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0
+     +--- org.springdoc:springdoc-openapi-starter-webmvc-api:2.2.0
+     |    +--- org.springdoc:springdoc-openapi-starter-common:2.2.0
+     |    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.1.2 -> 3.5.3 (*)
+     |    \--- org.springframework:spring-webmvc:6.0.11 -> 6.2.8 (*)
+developmentOnly - Configuration for development-only dependencies such as Spring Boot's DevTools.
++--- org.springframework.boot:spring-boot-starter-data-jpa (n)
++--- org.springframework.boot:spring-boot-starter-web (n)
+\--- org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0 (n)
++--- org.springframework.boot:spring-boot-starter-data-jpa -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3
+|    |    |    +--- org.springframework:spring-core:6.2.8
+|    |    |    |    \--- org.springframework:spring-jcl:6.2.8
+|    |    |    \--- org.springframework:spring-context:6.2.8
+|    |    |         +--- org.springframework:spring-aop:6.2.8
+|    |    |         |    +--- org.springframework:spring-beans:6.2.8
+|    |    |         |    |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-expression:6.2.8
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.3
+|    |    |    \--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:3.5.3
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-jdbc:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    \--- org.springframework:spring-jdbc:6.2.8
+|    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |         \--- org.springframework:spring-tx:6.2.8
+|    |              +--- org.springframework:spring-beans:6.2.8 (*)
+|    |              \--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.data:spring-data-jpa:3.5.1
+|    |    +--- org.springframework.data:spring-data-commons:3.5.1
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-orm:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-jdbc:6.2.8 (*)
+|    |    |    \--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-context:6.2.8 (*)
+|    |    +--- org.springframework:spring-aop:6.2.8 (*)
+|    |    +--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    \--- org.springframework:spring-aspects:6.2.8
++--- org.springframework.boot:spring-boot-starter-web -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    +--- org.springframework.boot:spring-boot-starter-json:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    +--- org.springframework:spring-web:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:3.5.3
+|    +--- org.springframework:spring-web:6.2.8 (*)
+|    \--- org.springframework:spring-webmvc:6.2.8
+|         +--- org.springframework:spring-aop:6.2.8 (*)
+|         +--- org.springframework:spring-beans:6.2.8 (*)
+|         +--- org.springframework:spring-context:6.2.8 (*)
+|         +--- org.springframework:spring-core:6.2.8 (*)
+|         +--- org.springframework:spring-expression:6.2.8 (*)
+|         \--- org.springframework:spring-web:6.2.8 (*)
++--- org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0
+|    +--- org.springdoc:springdoc-openapi-starter-webmvc-api:2.2.0
+|    |    +--- org.springdoc:springdoc-openapi-starter-common:2.2.0
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.1.2 -> 3.5.3 (*)
+|    |    \--- org.springframework:spring-webmvc:6.0.11 -> 6.2.8 (*)
++--- org.springframework.boot:spring-boot-starter-data-jpa -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3
+|    |    |    +--- org.springframework:spring-core:6.2.8
+|    |    |    |    \--- org.springframework:spring-jcl:6.2.8
+|    |    |    \--- org.springframework:spring-context:6.2.8
+|    |    |         +--- org.springframework:spring-aop:6.2.8
+|    |    |         |    +--- org.springframework:spring-beans:6.2.8
+|    |    |         |    |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-expression:6.2.8
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.3
+|    |    |    \--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:3.5.3
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-jdbc:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    \--- org.springframework:spring-jdbc:6.2.8
+|    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |         \--- org.springframework:spring-tx:6.2.8
+|    |              +--- org.springframework:spring-beans:6.2.8 (*)
+|    |              \--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.data:spring-data-jpa:3.5.1
+|    |    +--- org.springframework.data:spring-data-commons:3.5.1
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-orm:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-jdbc:6.2.8 (*)
+|    |    |    \--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-context:6.2.8 (*)
+|    |    +--- org.springframework:spring-aop:6.2.8 (*)
+|    |    +--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    \--- org.springframework:spring-aspects:6.2.8
++--- org.springframework.boot:spring-boot-starter-web -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    +--- org.springframework.boot:spring-boot-starter-json:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    +--- org.springframework:spring-web:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:3.5.3
+|    +--- org.springframework:spring-web:6.2.8 (*)
+|    \--- org.springframework:spring-webmvc:6.2.8
+|         +--- org.springframework:spring-aop:6.2.8 (*)
+|         +--- org.springframework:spring-beans:6.2.8 (*)
+|         +--- org.springframework:spring-context:6.2.8 (*)
+|         +--- org.springframework:spring-core:6.2.8 (*)
+|         +--- org.springframework:spring-expression:6.2.8 (*)
+|         \--- org.springframework:spring-web:6.2.8 (*)
++--- org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0
+|    +--- org.springdoc:springdoc-openapi-starter-webmvc-api:2.2.0
+|    |    +--- org.springdoc:springdoc-openapi-starter-common:2.2.0
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.1.2 -> 3.5.3 (*)
+|    |    \--- org.springframework:spring-webmvc:6.0.11 -> 6.2.8 (*)
+testAndDevelopmentOnly - Configuration for test and development-only dependencies such as Spring Boot's DevTools.
++--- org.springframework.boot:spring-boot-starter-data-jpa -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3
+|    |    |    +--- org.springframework:spring-core:6.2.8
+|    |    |    |    \--- org.springframework:spring-jcl:6.2.8
+|    |    |    \--- org.springframework:spring-context:6.2.8
+|    |    |         +--- org.springframework:spring-aop:6.2.8
+|    |    |         |    +--- org.springframework:spring-beans:6.2.8
+|    |    |         |    |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-expression:6.2.8
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.3
+|    |    |    \--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:3.5.3
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-jdbc:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    \--- org.springframework:spring-jdbc:6.2.8
+|    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |         \--- org.springframework:spring-tx:6.2.8
+|    |              +--- org.springframework:spring-beans:6.2.8 (*)
+|    |              \--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.data:spring-data-jpa:3.5.1
+|    |    +--- org.springframework.data:spring-data-commons:3.5.1
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-orm:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-jdbc:6.2.8 (*)
+|    |    |    \--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-context:6.2.8 (*)
+|    |    +--- org.springframework:spring-aop:6.2.8 (*)
+|    |    +--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    \--- org.springframework:spring-aspects:6.2.8
++--- org.springframework.boot:spring-boot-starter-web -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    +--- org.springframework.boot:spring-boot-starter-json:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    +--- org.springframework:spring-web:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:3.5.3
+|    +--- org.springframework:spring-web:6.2.8 (*)
+|    \--- org.springframework:spring-webmvc:6.2.8
+|         +--- org.springframework:spring-aop:6.2.8 (*)
+|         +--- org.springframework:spring-beans:6.2.8 (*)
+|         +--- org.springframework:spring-context:6.2.8 (*)
+|         +--- org.springframework:spring-core:6.2.8 (*)
+|         +--- org.springframework:spring-expression:6.2.8 (*)
+|         \--- org.springframework:spring-web:6.2.8 (*)
++--- org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0
+|    +--- org.springdoc:springdoc-openapi-starter-webmvc-api:2.2.0
+|    |    +--- org.springdoc:springdoc-openapi-starter-common:2.2.0
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.1.2 -> 3.5.3 (*)
+|    |    \--- org.springframework:spring-webmvc:6.0.11 -> 6.2.8 (*)
+\--- org.springframework.boot:spring-boot-starter-test -> 3.5.3
+     +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+     +--- org.springframework.boot:spring-boot-test:3.5.3
+     |    +--- org.springframework.boot:spring-boot:3.5.3 (*)
+     |    \--- org.springframework:spring-test:6.2.8
+     |         \--- org.springframework:spring-core:6.2.8 (*)
+     +--- org.springframework.boot:spring-boot-test-autoconfigure:3.5.3
+     |    +--- org.springframework.boot:spring-boot:3.5.3 (*)
+     |    +--- org.springframework.boot:spring-boot-test:3.5.3 (*)
+     |    \--- org.springframework.boot:spring-boot-autoconfigure:3.5.3 (*)
+     +--- org.springframework:spring-core:6.2.8 (*)
+     +--- org.springframework:spring-test:6.2.8 (*)
+\--- org.springframework.boot:spring-boot-starter-test (n)
++--- org.springframework.boot:spring-boot-starter-data-jpa -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3
+|    |    |    +--- org.springframework:spring-core:6.2.8
+|    |    |    |    \--- org.springframework:spring-jcl:6.2.8
+|    |    |    \--- org.springframework:spring-context:6.2.8
+|    |    |         +--- org.springframework:spring-aop:6.2.8
+|    |    |         |    +--- org.springframework:spring-beans:6.2.8
+|    |    |         |    |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |         +--- org.springframework:spring-expression:6.2.8
+|    |    |         |    \--- org.springframework:spring-core:6.2.8 (*)
+|    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.5.3
+|    |    |    \--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    +--- org.springframework.boot:spring-boot-starter-logging:3.5.3
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-jdbc:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    \--- org.springframework:spring-jdbc:6.2.8
+|    |         +--- org.springframework:spring-beans:6.2.8 (*)
+|    |         +--- org.springframework:spring-core:6.2.8 (*)
+|    |         \--- org.springframework:spring-tx:6.2.8
+|    |              +--- org.springframework:spring-beans:6.2.8 (*)
+|    |              \--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.data:spring-data-jpa:3.5.1
+|    |    +--- org.springframework.data:spring-data-commons:3.5.1
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-orm:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-jdbc:6.2.8 (*)
+|    |    |    \--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-context:6.2.8 (*)
+|    |    +--- org.springframework:spring-aop:6.2.8 (*)
+|    |    +--- org.springframework:spring-tx:6.2.8 (*)
+|    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    \--- org.springframework:spring-aspects:6.2.8
++--- org.springframework.boot:spring-boot-starter-web -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    +--- org.springframework.boot:spring-boot-starter-json:3.5.3
+|    |    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    |    +--- org.springframework:spring-web:6.2.8
+|    |    |    +--- org.springframework:spring-beans:6.2.8 (*)
+|    |    |    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-starter-tomcat:3.5.3
+|    +--- org.springframework:spring-web:6.2.8 (*)
+|    \--- org.springframework:spring-webmvc:6.2.8
+|         +--- org.springframework:spring-aop:6.2.8 (*)
+|         +--- org.springframework:spring-beans:6.2.8 (*)
+|         +--- org.springframework:spring-context:6.2.8 (*)
+|         +--- org.springframework:spring-core:6.2.8 (*)
+|         +--- org.springframework:spring-expression:6.2.8 (*)
+|         \--- org.springframework:spring-web:6.2.8 (*)
++--- org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0
+|    +--- org.springdoc:springdoc-openapi-starter-webmvc-api:2.2.0
+|    |    +--- org.springdoc:springdoc-openapi-starter-common:2.2.0
+|    |    |    +--- org.springframework.boot:spring-boot-autoconfigure:3.1.2 -> 3.5.3 (*)
+|    |    \--- org.springframework:spring-webmvc:6.0.11 -> 6.2.8 (*)
++--- org.springframework.boot:spring-boot-starter-test -> 3.5.3
+|    +--- org.springframework.boot:spring-boot-starter:3.5.3 (*)
+|    +--- org.springframework.boot:spring-boot-test:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    \--- org.springframework:spring-test:6.2.8
+|    |         \--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework.boot:spring-boot-test-autoconfigure:3.5.3
+|    |    +--- org.springframework.boot:spring-boot:3.5.3 (*)
+|    |    +--- org.springframework.boot:spring-boot-test:3.5.3 (*)
+|    |    \--- org.springframework.boot:spring-boot-autoconfigure:3.5.3 (*)
+|    +--- org.springframework:spring-core:6.2.8 (*)
+|    +--- org.springframework:spring-test:6.2.8 (*)

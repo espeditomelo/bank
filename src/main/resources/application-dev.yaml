@@ -9,12 +9,45 @@ spring:
     hibernate:
       ddl-auto: create # validate | update | create | create-drop
     properties:
-        hibernate:
-          format_sql: true
+      hibernate:
+        format_sql: true
   h2:
     console:
-        enabled: true
-        path: /h2-console
-        settings:
-          trace: false
-          web-allow-others: false
+      enabled: true
+      path: /h2-console
+      settings:
+        trace: false
+        web-allow-others: false
+
+# Configurações do SpringDoc OpenAPI/Swagger
+springdoc:
+  # Configurações da API Documentation
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+
+  # Configurações do Swagger UI
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    disable-swagger-default-url: true
+    doc-expansion: none
+    deep-linking: true
+    display-request-duration: true
+    operations-sorter: method
+    tags-sorter: alpha
+
+  # Configurações gerais - REMOVIDO paths-to-match que estava restringindo
+  show-actuator: true
+  # paths-to-match: /api/** # <- Esta linha estava impedindo o Swagger de encontrar seus endpoints
+  packages-to-scan: com.teste.bank
+
+  # Cache das especificações
+  cache:
+    disabled: true
+
+# Configurações de debug (temporárias para diagnóstico)
+logging:
+  level:
+    org.springdoc: DEBUG
+    org.springframework.web: DEBUG

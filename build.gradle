@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '3.5.3'
+	id 'org.springframework.boot' version '3.3.5'
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
@@ -20,10 +20,32 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	// SpringDoc OpenAPI compatível com Spring Boot 3.3.x
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
 	runtimeOnly 'com.h2database:h2'
 	runtimeOnly 'org.postgresql:postgresql'
+
+	implementation 'org.slf4j:slf4j-api:2.0.9'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+// Remova as configurações de force que estão causando conflitos
+// configurations.configureEach {
+//     resolutionStrategy {
+//        force 'org.springframework:spring-web:6.0.11'
+//        force 'org.springframework:spring-beans:6.0.11'
+//        force 'org.springframework:spring-context:6.0.11'
+//     }
+// }
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.boot:spring-boot-dependencies:3.3.5"
+	}
 }
 
 tasks.named('test') {
